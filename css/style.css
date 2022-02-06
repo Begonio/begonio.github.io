@@ -577,3 +577,29 @@ a.svg:after {
     position: relative;
     z-index: 2;
 }
+.item {
+    display: grid;
+}
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 188px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    flex: 1 1 auto;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+.item img {
+    width: 188px;
+    height: 188px;
+}
+
+.caption {
+    display: block;
+    color: white;
+}
